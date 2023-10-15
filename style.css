@@ -1,0 +1,203 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  
+  /* overflow: hidden; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  width: 90%;
+  background-image: url('/wallpaperflare.com_wallpaper\ \(2\).jpg');
+  background-size: cover;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  padding: 20px;
+  margin: 10% 20px 10% 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.dashboard{
+  /* background-color: blue; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+input{
+  padding: 20px;
+  width: 80%;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#output{
+  width: 100%;
+  height: 300px;
+  margin: 1% 0px 5% 0px;
+  /* border: solid 4px lightblue; */
+  border-radius: 10px;
+  /* background-color: lightgray; */
+  /* filter: opacity(50%); */
+  position: relative;
+}
+
+
+#keyboard{
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background-color: yellow; */
+}
+.numlet{
+  width: 100%;
+  font-weight: bold;
+  font-family: arial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  /* background-color: lightblue; */
+  background-image: url('/wallpaperflare.com_wallpaper\ \(1\).jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid 3px lightgray;
+color: white;
+  border-radius: 20px;
+  padding: 10px;
+  /* background: purple; */
+}
+.characters{
+  width: 100%;
+  font-weight: bold;
+  font-family: arial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.keys{
+  cursor: pointer;
+  border: solid lightgray 3px;
+  border-radius: 5px;
+  position: relative;
+  transition: 0.3s;
+}
+.keys:active{
+  background: lightgray;
+  color: black;
+}
+
+.cntrls{
+  cursor: pointer;
+  border: solid lightgray 3px;
+  border-radius: 5px;
+  transition: 0.3s;
+
+}
+.cntrls:active{
+  background: lightgray;
+  color: black;
+}
+.nums{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.nums div{
+  margin: 5px;
+  padding: 5px;
+}
+.qp{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
+}
+.qp div{
+  margin: 5px;
+  padding: 5px;
+}
+.az{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+}
+.az div{
+  margin: 5px;
+  padding: 5px;
+}
+.xc{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
+}
+.xc div{
+  margin: 5px;
+  padding: 5px;
+}
+
+.case{
+  background: grey;
+  padding: 10px;
+  width: 20px;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+}
+
+.delete{
+  background: darkgray;
+  border: solid 2px black;
+  padding: 10px;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.nav div{
+  margin: 5px;
+  padding: 5px;
+}
+.space{
+  width: 200px;
+}
+.enter{
+  width: 100px;
+}
+
+.spread{
+  background: gray;
+  color: white;
+  margin: 20px;
+  /* width: 70%; */
+  width: fit-content;
+  border-radius: 30px;
+  padding: 20px;
+  font-size: 20px;
+
+}
